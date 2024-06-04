@@ -65,7 +65,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD1";
             #binding-cells = <0>;
-            bindings = <&lt 3 ENTER>, <&to 3>;
+            bindings = <&lt 3 N0>, <&to 3>;
         };
 
         td3: td3 {
@@ -99,7 +99,7 @@
 &kp GRAVE  &trans     &trans                     &trans              &trans                        &trans    &kp PLUS   &kp N7  &kp N8  &kp N9  &kp ASTERISK  &trans
 &trans     &kp LCTRL  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_GUI COMMA  &mt LEFT_SHIFT RIGHT_BRACKET  &trans    &kp MINUS  &kp N4  &kp N5  &kp N6  &kp SLASH     &trans
 &trans     &trans     &kp LEFT_PARENTHESIS       &trans              &kp RIGHT_PARENTHESIS         &td3      &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp PERIOD    &trans
-                                                 &trans              &trans                        &trans    &trans     &td1    &kp N0
+                                                 &trans              &trans                        &trans    &trans     &td1    &trans
             >;
         };
 
@@ -123,10 +123,10 @@
 
         mouse {
             bindings = <
-&trans  &trans         &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans          &trans          &trans          &trans          &trans          &trans        &trans
-&trans  &kp LS(LG(Z))  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP    &trans          &kp LEFT_SHIFT  &kp LEFT_GUI    &kp LEFT_ALT    &kp LCTRL     &trans
-&trans  &kp LG(Z)      &kp LG(X)       &kp LG(C)       &kp LG(V)        &msc SCRL_DOWN  &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT &trans
-                                       &mkp MCLK        &mkp LCLK       &mkp RCLK       &trans          &trans          &trans
+&trans  &trans         &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans            &trans  &trans          &trans          &trans        &trans           &trans
+&trans  &kp LS(LG(Z))  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP      &trans  &kp LEFT_SHIFT  &kp LEFT_GUI    &kp LEFT_ALT  &kp LCTRL        &trans
+&trans  &kp LG(Z)      &kp LG(X)       &kp LG(C)       &kp LG(V)        &msc SCRL_DOWN    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+                                       &mkp MCLK       &mkp LCLK        &mkp RCLK         &trans  &trans          &trans
             >;
         };
     };
