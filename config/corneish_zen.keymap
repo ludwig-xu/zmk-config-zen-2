@@ -96,10 +96,10 @@
 
         num {
             bindings = <
-&kp GRAVE  &trans     &trans                     &trans              &trans                        &trans    &kp PLUS   &kp N7  &kp N8  &kp N9  &kp ASTERISK  &trans
-&trans     &kp LCTRL  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_GUI COMMA  &mt LEFT_SHIFT RIGHT_BRACKET  &trans    &kp MINUS  &kp N4  &kp N5  &kp N6  &kp SLASH     &trans
-&trans     &trans     &kp LEFT_PARENTHESIS       &trans              &kp RIGHT_PARENTHESIS         &td3      &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp PERIOD    &trans
-                                                 &trans              &trans                        &trans    &trans     &td1    &trans
+&kp GRAVE  &trans     &trans                     &trans              &trans                        &trans    &kp PLUS   &kp N7             &kp N8           &kp N9           &kp ASTERISK     &trans
+&trans     &kp LCTRL  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_GUI COMMA  &mt LEFT_SHIFT RIGHT_BRACKET  &trans    &kp MINUS  &mt LEFT_SHIFT N4  &mt LEFT_GUI N5  &mt LEFT_ALT N6  &mt LCTRL SLASH  &trans
+&trans     &trans     &kp LEFT_PARENTHESIS       &trans              &kp RIGHT_PARENTHESIS         &td3      &kp EQUAL  &kp N1             &kp N2           &kp N3           &kp PERIOD       &trans
+                                                 &trans              &trans                        &trans    &trans     &td1               &trans
             >;
         };
 
