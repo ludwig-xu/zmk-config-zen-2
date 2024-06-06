@@ -65,7 +65,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD1";
             #binding-cells = <0>;
-            bindings = <&lt 3 N0>, <&to 3>;
+            bindings = <&mo 3>, <&to 3>;
         };
 
         td3: td3 {
@@ -99,7 +99,7 @@
 &kp GRAVE  &trans     &trans                     &trans              &trans                        &trans    &kp PLUS   &kp N7             &kp N8           &kp N9           &kp ASTERISK     &trans
 &trans     &kp LCTRL  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_GUI COMMA  &mt LEFT_SHIFT RIGHT_BRACKET  &trans    &kp MINUS  &mt LEFT_SHIFT N4  &mt LEFT_GUI N5  &mt LEFT_ALT N6  &mt LCTRL SLASH  &trans
 &trans     &trans     &kp LEFT_PARENTHESIS       &trans              &kp RIGHT_PARENTHESIS         &td3      &kp EQUAL  &kp N1             &kp N2           &kp N3           &kp PERIOD       &trans
-                                                 &trans              &trans                        &trans    &trans     &td1               &trans
+                                                 &trans              &trans                        &trans    &trans     &kp N0             &trans
             >;
         };
 
@@ -108,7 +108,7 @@
 &trans  &trans         &kp HOME   &kp UP_ARROW  &kp END    &trans           &trans  &trans          &trans        &trans        &trans     &trans
 &trans  &kp LS(LG(Z))  &kp LEFT   &kp DOWN      &kp RIGHT  &kp PAGE_UP      &trans  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &trans
 &trans  &kp LG(Z)      &kp LG(X)  &kp LG(C)     &kp LG(V)  &kp PAGE_DOWN    &td3    &kp LEFT        &kp DOWN      &kp UP        &kp RIGHT  &trans
-                                  &trans        &trans     &trans           &trans  &trans          &trans
+                                  &trans        &td1       &trans           &trans  &trans          &trans
             >;
         };
 
